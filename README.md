@@ -1,6 +1,6 @@
 This repository presents a Time Series Forecasting project that focuses on analyzing over 10 years of hourly energy consumption data from PJM in Megawatts, sourced from the [Kaggle Dataset](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption). The objective of this project is to utilize XGBoost, a popular machine learning algorithm, for accurate forecasting.
 
-**Summary:**
+<h2>Summary:</h2>
 
 
 This repository comprises two parts. **[Part 1](part-1-time-series-forecasting-XGBoost.ipynb)** involves initial data analysis and visualization of various features, such as monthly energy consumption and hourly energy consumption. These visualizations provide insights into the dataset. Additionally, time series features are created based on the time series index. The dataset is then split into training and test sets, enabling the model to be trained using the XGBoost algorithm. To gain an understanding of the impact of each feature on the model, a feature importance analysis is conducted. Once the training is complete, the model is employed to forecast energy consumption on the test data. A plot is generated to showcase the true and predicted values, allowing for a visual comparison. Lastly, the root mean square error (RMSE) value is calculated to evaluate the accuracy of the forecasting model.
